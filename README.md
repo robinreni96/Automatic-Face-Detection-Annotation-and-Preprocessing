@@ -1,5 +1,5 @@
 # Automatic-Face-Detection-Annotation-and-Preprocessing
-For creating a facial recognition model we need the facial landmarked data from the images . To get it , we need to manually label all the images using the labeltools , annotate the image with their coordiantes and then convert it to a csv file . Then we preprocess it to respective data file format like tfrecord etc. To make it easy for the AI Developers , I coded this module which can automatically detect , annotate , collect the coordinates , convert to csv and to tfrecord . And I added a feature to visulaize your detected face on the image according to the classes also.
+For creating a facial recognition model we need the facial landmarked data from the images . To get it , we need to manually label all the images using the labeltools , annotate the image with their coordiantes and then convert it to a csv file . Then we preprocess it to respective data file format like tfrecord etc. To make it easy for the AI Developers , I coded this module which can automatically detect , annotate , collect the coordinates , convert to csv and to tfrecord . And I added a feature to visulaize your detected face on the image according by their respective classes.
 
 
 <p align="center"> 
@@ -7,7 +7,7 @@ For creating a facial recognition model we need the facial landmarked data from 
 </p>
 
 ## Compatibility
-The code is tested and developed and test in ubuntu 18.04 and using pyton 3.6.But the code has the realiability to run on most of the configuration . if you face issues , do open up as issue for this repo .All the package dependicies are mentioned in requirements.txt.
+The code is tested and developed  in ubuntu 18.04 and using pyton 3.6.But the code has the realiability to run on most of the configuration . If you face issues , do open up an issue for this repo .All the package dependencies are mentioned in requirements.txt.
 
 ## Workings
 1. Preprocessing all the images to a standard size and format
@@ -32,7 +32,7 @@ The code is tested and developed and test in ubuntu 18.04 and using pyton 3.6.Bu
 <img src="https://github.com/robinreni96/Automatic-Face-Detection-Annotation-and-Preprocessing/blob/master/resource/structue.png">
 </p>
 
-### Note : The images should be in jpg format and each image of a class should have one person image.
+### Note : The images should be in jpg format and each image of a class should have only one person image.
 
 ## Steps to run the code for your custom dataset
 1. Create a python virtual environment and pip install the requirements.txt
