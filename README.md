@@ -29,7 +29,7 @@ The code is tested and developed and test in ubuntu 18.04 and using pyton 3.6.Bu
 + `requirements.txt` - contains all the packages and their versions
 
 <p align="center"> 
-<img src="https://github.com/robinreni96/Automatic-Face-Detection-Annotation-and-Preprocessing/blob/master/resource/structure.png">
+<img src="https://github.com/robinreni96/Automatic-Face-Detection-Annotation-and-Preprocessing/blob/master/resource/structue.png">
 </p>
 
 ### Note : The images should be in jpg format and each image of a class should have one person image.
@@ -55,7 +55,7 @@ It automatically removes the all the bad format images and multiple face images
 + Harr-Cascade : https://docs.opencv.org/3.3.0/d7/d8b/tutorial_py_face_detection.html
 + To know more about tfrecord : https://www.skcript.com/svr/why-every-tensorflow-developer-should-know-about-tfrecord/
 
-## ALL THE WORKS ARE DEVELOPED WITH THE GUIDANCE AND SUPPORT FROM [INNOVATION INCUBATOR](https://innovationincubator.com/)
+ALL THE WORKS ARE DEVELOPED WITH THE GUIDANCE AND SUPPORT FROM [INNOVATION INCUBATOR](https://innovationincubator.com/)
 
 
 
