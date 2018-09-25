@@ -78,12 +78,14 @@ def image_process(image_dir,data_list,method):
 def parse_arguments(argv):
     # Defining the parser
     parser = argparse.ArgumentParser()
-    parser.add_argument('image_dir',type=str,help='Directory of them images')
     parser.add_argument('csv_name',type=str,help='Name of the csv')
     parser.add_argument('tfrecord_name',type=str,help='Name of the tfrecord')
     parser.add_argument('method',type=str,help='Method to use to detect Face')
 
     return parser.parse_args(argv)
+
+# image directory
+image_dir = os.path.join(os.getcwd(),"images")
 
 # parsing the arguments
 args=parse_arguments(sys.argv[1:])
@@ -92,7 +94,7 @@ args=parse_arguments(sys.argv[1:])
 data_list = [['filename','width','height','class','xmin','ymin','xmax','ymax']]
 
 # process the images and getting the coordinate values as list
-coordinate_list = image_process(args.image_dir,data_list,args.method)
+coordinate_list = image_process(image_dir,data_list,args.method)
 
 
 
@@ -100,10 +102,10 @@ coordinate_list = image_process(args.image_dir,data_list,args.method)
 writeCsvFile(args.csv_name, coordinate_list)
 
 # conversion to tfrecord 
-generate_tf(args.csv_name,args.tfrecord_name,args.image_dir)
+generate_tf(args.csv_name,args.tfrecord_name,image_dir)
 
 # Exporting the output
 class_labels=[]
-for dirs in os.listdir(args.image_dir):
+for dirs in os.listdir(image_dir):
     class_labels.append(dirs)
 export(args.csv_name,class_labels) # Calling the export function from check
