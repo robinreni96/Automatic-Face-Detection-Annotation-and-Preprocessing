@@ -42,10 +42,8 @@ The code is tested and developed  in ubuntu 18.04 and using pyton 3.6.But the co
 1. Create a python virtual environment and pip install the requirements.txt
 2. Then prepare the images folder according to structure
 3. Create a empty output directory
-4. To detect the face using Facenet run `python main.py images_directory_path csv_name tfrecord_name facenet`.Example : `python main.py /home/robinreni/Document
-s/Automatic-Face-Detection-Annotation-and-Preprocessing-master/images train.csv train.record facenet`
-5. To detect the face using Harr-Cascade run `python main.py images_directory_path csv_name tfrecord_name harr`. Example : `python main.py /home/robinreni/Document
-s/Automatic-Face-Detection-Annotation-and-Preprocessing-master/images train.csv train.record harr`
+4. To detect the face using Facenet run `python main.py csv_name tfrecord_name facenet`.Example : `python main.py train.csv train.record facenet`
+5. To detect the face using Harr-Cascade run `python main.py csv_name tfrecord_name harr`. Example : `python main.py  train.csv train.record harr`
 6. After code execution , you will get a csv and tfrecord file . To view the detection is perfect , go to the output directory you can view all the images with detection according to their respective class.
 7. Simple !
 
