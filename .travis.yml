@@ -17,3 +17,6 @@ script:
   
 after_success:
   - codecov -t a7cf7e03-3a31-4137-957a-338f9b027301
+  - coverage xml
+  - python-codacy-coverage -r coverage.xml
+  - coverage report
