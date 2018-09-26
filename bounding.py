@@ -1,7 +1,5 @@
 import cv2
-import numpy as np 
 import os
- 
 
 def draw_bounding_box(filename,width,height,label,xmin,ymin,xmax,ymax,save_path):
     
@@ -22,7 +20,6 @@ def draw_bounding_box(filename,width,height,label,xmin,ymin,xmax,ymax,save_path)
     #         #mask = np.zeros(im2.shape,np.uint8)
     #         #cv2.drawContours(mask,[cnt],0,255,-1)
     #         x,y,w,h = cv2.boundingRect(cnt)
-
     cv2.waitKey()  
     cv2.destroyAllWindows()   
             
