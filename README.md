@@ -1,5 +1,5 @@
-# Automatic-Face-Detection-Annotation-and-Preprocessing [![Build Status][travis-image]][travis]
-
+# Automatic-Face-Detection-Annotation-and-Preprocessing 
+[![Build Status][travis-image]][travis]
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/26997f5031314d00960e8d2a8f8b9b2c)](https://app.codacy.com/app/robinreni96/Automatic-Face-Detection-Annotation-and-Preprocessing?utm_source=github.com&utm_medium=referral&utm_content=robinreni96/Automatic-Face-Detection-Annotation-and-Preprocessing&utm_campaign=Badge_Grade_Dashboard)
 
 [travis-image]: https://travis-ci.org/robinreni96/Automatic-Face-Detection-Annotation-and-Preprocessing.svg?branch=master
