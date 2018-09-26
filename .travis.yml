@@ -1,9 +1,19 @@
 language: python
 python:
   - "3.6"
+  
+ env:
+  global:
+     - CODACY_PROJECT_TOKEN=a7cf7e03-3a31-4137-957a-338f9b027301
+
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+  - pip install codecov
 
 script:
   - python main.py train.csv train.record facenet
+  - coverage run main.py train.csv train.record facenet
+  
+after_success:
+  - codecov -t a7cf7e03-3a31-4137-957a-338f9b027301
