@@ -48,7 +48,7 @@ The code is tested and developed  in ubuntu 18.04 and using pyton 3.6.But the co
 7. Simple !
 
 ### Additional Feature 
-It automatically removes the all the bad format images and multiple face images
+It automatically removes all the bad format images and multiple face images
 
 ## For More Reference :
 + MTCNN : https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf
