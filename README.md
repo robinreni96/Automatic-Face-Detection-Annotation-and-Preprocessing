@@ -57,7 +57,9 @@ It automatically removes all the bad format images and multiple face images
 + Harr-Cascade : https://docs.opencv.org/3.3.0/d7/d8b/tutorial_py_face_detection.html
 + To know more about tfrecord : https://www.skcript.com/svr/why-every-tensorflow-developer-should-know-about-tfrecord/
 
-ALL THE WORKS ARE DEVELOPED WITH THE GUIDANCE AND SUPPORT FROM [INNOVATION INCUBATOR](https://innovationincubator.com/)
+<a href="https://www.buymeacoffee.com/robinreni96" target="_blank"><img src="https://github.com/appcraftstudio/buymeacoffee/raw/master/Images/snapshot-bmc-button.png" width="300"></a>
+
+Copyright © 2021 Robin Reni. All rights reserved
 
 
 
